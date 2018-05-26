@@ -1,0 +1,28 @@
+databaseConfig:
+  host: localhost
+  port: 3306
+  name: db_name
+  username: db_user
+  password: db_pass
+  
+emailConfig:
+  host: smtp.gmail.com
+  port: 587
+  username: screamatthewind@gmail.com
+  password: password
+  fromAddress: no_reply@screamatthewind.com
+  fromName: NoReply
+  errorAddress: screamatthewind@gmail.com
+
+reportDirectory: C:\users\bob\documents\
+
+reports:
+  - name: TV STB Usage Report
+    sendTo:
+      - screamatthewind@gmail.com
+    agents:
+      - Agent 1
+      - Agent 2
+
+exclusions:
+  - Admin Admin

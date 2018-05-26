@@ -1,0 +1,10 @@
+emailConfig:
+  host: mail.screamatthewind.com
+  port: 25
+  username: no-reply@screamatthewind.com
+  password: xxx
+  fromAddress: no-reply@screamatthewind.com
+  fromName: Do Not Reply
+  errorAddress: screamatthewind@gmail.com
+
+logFilename: c:\logfile.log
